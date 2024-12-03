@@ -1,6 +1,6 @@
 import AboutMe from "./components/About";
 import AchievementsSecion from "./components/Achievements";
-import EmailSection from "./components/EmailTemplate";
+import SimpleEmailSection from "./components/EmailTemplate";
 import Footer from "./components/footer";
 import HeroSection from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -15,7 +15,7 @@ export default function Home() {
 				<AchievementsSecion />
 				<AboutMe />
 				<ProjectsSection />
-				<EmailSection />
+				<SimpleEmailSection />
 				<Footer />
 			</div>
 		</main>
